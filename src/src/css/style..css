@@ -1,0 +1,29 @@
+*{
+    border: 1px solid #c2c2c2;
+}
+
+
+body {
+
+}
+
+#wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+header {
+display: flex;
+justify-content: space-between;
+padding: 1rem;
+}
+header .search{
+margin-right: 3rem;
+}
+header .logo {
+    max-width: 100px;
+    height: auto;
+}
